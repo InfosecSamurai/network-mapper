@@ -1,0 +1,34 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.main-content {
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+}
+
+/* Add these styles to complement the existing ones */
+.DeviceDetails {
+  width: 300px;
+  background-color: #fff;
+  border-left: 1px solid #ddd;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.DeviceDetails h3 {
+  margin-top: 0;
+  color: #333;
+}
+
+.DeviceDetails p {
+  margin: 5px 0;
+}
+
+.DeviceDetails .property {
+  font-weight: bold;
+  margin-right: 5px;
+}
