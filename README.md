@@ -53,7 +53,7 @@ If you want to run locally later:
 ```bash
 # Backend
 cd backend
-python -m venv venv
+python3 -m venv venv
 source venv/bin/activate  # Linux/Mac
 venv\Scripts\activate    # Windows
 pip install -r requirements.txt
